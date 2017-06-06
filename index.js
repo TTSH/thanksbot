@@ -15,10 +15,10 @@ const
 	request = require('request');
 
 const
-	VERIFY_TOKEN = process.env.VERIFY_TOKEN,
-	ACCESS_TOKEN = process.env.ACCESS_TOKEN,
-	APP_SECRET = process.env.APP_SECRET,
-	DATABASE_URL = process.env.DATABASE_URL;
+	VERIFY_TOKEN = process.env.TOKEN_VERIFY_THANKSBOT_001,
+	ACCESS_TOKEN = process.env.DQVJ0ZA3F6RUM0REhSbGhqdnhseXFRVjU3dEJIeDdOM0hvS00wQm1mdC1FS0gzTEZAMR1hKUDk4azBmb2pvbDVieDgwYkRmMDFOQXp1V2dYTDZA1dXhMN2ZAjcF9DSE5laGdjdDdTRG5jRmdPcW5kUHN3ajhsc2ZAYdE1vRmdBa0dGOXBBbmJpQUFrVm5ibnFpcDZAKVzYyTE5iVTBiSjVybmRXWjZARMVFlQWY3SFpXSlBmM2ctQzREaXAwRUdQdTVGRzdmdUdjTXNB,
+	APP_SECRET = process.env.d0b5838bd4568de922bd7412399a81dd,
+	DATABASE_URL = process.env.https://github.com/TTSH/thanksbot/blob/master/Database;
 
 if (!(APP_SECRET && VERIFY_TOKEN && ACCESS_TOKEN && DATABASE_URL)) {
 	console.error('Missing environment values.');
