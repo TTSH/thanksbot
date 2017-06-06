@@ -1,0 +1,1 @@
+create table thanks (create_date date, permalink_url text, recipient text, recipient_manager text, sender text, message text);
